@@ -3,6 +3,11 @@
 
 public class Main {
     public static void main(String[] args) {
-        //напишите тут ваш код
+        int a=5;
+        int b=2;
+        String s="Тест";
+        //System.out.println(a);
+        //System.out.println(b);
+        //System.out.println(s);
     }
 }

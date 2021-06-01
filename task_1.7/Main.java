@@ -8,9 +8,17 @@
 250000 */
 
 
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        //Ваш код
+        System.out.println("Введите длину в метрах");
+        Scanner scan = new Scanner(System.in);
+        int width = scan.nextInt();
+        System.out.println("Введите ширину в метрах");
+        int length = scan.nextInt();
+        System.out.println("Введите высоту в метрах");
+        int height = scan.nextInt();
+        System.out.println("Для заполнения бассейна нужно "+(width*length*height*1000));
     }
 }
