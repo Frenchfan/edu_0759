@@ -7,13 +7,17 @@
 •	Метод min должен возвращать минимальное значение из чисел a, b и с.
 */
 
-
 public class Main {
     public static int min(int a, int b, int c) {
-        //напишите тут ваш код
+        int tempmin;
+        if (a<b) tempmin = a;
+        else tempmin = b;
+        if (c<tempmin) tempmin = c;
+        else return tempmin;
+        return tempmin;
     }
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         System.out.println(min(1, 2, 3));
         System.out.println(min(-1, -2, -3));
         System.out.println(min(3, 5, 3));
