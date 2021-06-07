@@ -11,15 +11,21 @@
 
 public class Main {
     public static void main(String[] args){
+        /*Fox Lily = new Fox();
+        System.out.println(Lily.getName()+"  "+Lily.getColor()); */
     }
 }
 
 interface Animal {
-    Color getColor();
+    public String getColor();
 }
     
-class Fox {
+class Fox implements Animal{
     public String getName() {
         return "Fox";
     }
+    @Override
+    public String getColor(){
+        return "Test";
+    };
 }

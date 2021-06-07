@@ -17,8 +17,27 @@ public class Main {
 
     }
 }
+/* убрал public перед описанием класса. иначе нужно
+выносить код класса в отдельный файл
+ */
+class Dog {
+    private String name;
+    private int age;
 
-public class Dog {
-    //напишите тут ваш код
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
 }
 
