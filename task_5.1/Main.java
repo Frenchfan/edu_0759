@@ -4,8 +4,7 @@
 * 2) вывести коллекцию на экран
 * */
 
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,5 +16,16 @@ public class Main {
         names.add("Георгий");
         names.add("Павел");
         names.add("Руслан");
+        removeDuplicates(names);
+        System.out.println("Коллекция без повторов: "+names);
+
+    }
+    public static <T> ArrayList<T> removeDuplicates(ArrayList<T> list)
+    {
+        Set<T> set = new LinkedHashSet<>();
+        set.addAll(list);
+        list.clear();
+        list.addAll(set);
+        return list;
     }
 }

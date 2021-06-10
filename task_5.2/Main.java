@@ -24,22 +24,32 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         List<String> list = new ArrayList<>();
         while (true) {
-            String family = scanner.nextLine();
-            if (family.isEmpty()) {
-                break;
+            if (list.size()%2!=0) {
+                System.out.println("Введите фамилию. Для завершения - нажмите enter");
+                String family = scanner.nextLine();
+                if (family.isEmpty()) {
+                    break;
+                }
+                list.add(family);
             }
-
-            list.add(family);
+            else {
+                System.out.println("Введите город. Для завершения - нажмите enter");
+                String family = scanner.nextLine();
+                if (family.isEmpty()) {
+                    break;
+                }
+                list.add(family);
+            }
         }
 
-        // Read the house number
-        int houseNumber = scanner.nextInt();
+        // Read the city
+        System.out.println("Введите город для отображения семьи, которая там проживает");
+        String city = scanner.nextLine();
 
-        if (0 <= houseNumber && houseNumber < list.size()) {
-            String familyName = list.get(houseNumber);
+        if (!city.equals(""))         {
+            String familyName = list.get(list.indexOf(city)+1);
             System.out.println(familyName);
         }
     }
