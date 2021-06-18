@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b81f61-afd5-4803-8953-da04b7517418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0759_chat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6.2_proxy_checker_muti2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6.2_proxy_checker_muti2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6.2_proxy_checker_muti2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6.2_proxy_checker_muti2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6.2_proxy_checker_muti2/6.2_proxy_checker_muti2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6.2_proxy_checker_muti2/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task_6.1_Proxy_Checker_one_thread/src/Multithread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addfileread/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../addfileread/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6.2_proxy_checker_muti2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6.2_proxy_checker_muti2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +69,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Server" />
         <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -106,6 +95,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
