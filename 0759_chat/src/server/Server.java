@@ -74,4 +74,11 @@ public class Server {
             e.printStackTrace();
         }
     }
+    /*private static void sendUserList(){
+        String userName = "**userList**";
+        for (User user:users) {
+            userName += "//"+user.getUserName();//**userList**////user2//user3*/
+
 }
+
+
